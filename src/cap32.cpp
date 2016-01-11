@@ -4307,15 +4307,16 @@ have_TAP = false;
    CPC_render_mode=0;
 
 
-   if (WhichPI()>128)
-	{
+   // 11.01.2016 add HiRes for Rpi1 also
+   //if (WhichPI()>128)
+	//{
 	CPC_max_vid_mode=3;
 	vid_index=3;
-	}else
+	/*}else
 	{
 	CPC_max_vid_mode=1;
 	vid_index=0;
-	} 
+	} */
 
   //vid_index=2;
    video_reconfig(vid_index);
