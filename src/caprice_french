@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo apt-get install console-data
+sudo loadkeys /usr/share/keymaps/i386/qwerty/uk.kmap.gz
+./capriceRPI
+sudo loadkeys /usr/share/keymaps/i386/azerty/fr.kmap.gz 
